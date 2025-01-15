@@ -5,22 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Can Ercan's Professional Page</title>
     <style>
-        /* General page styles */
+        /* General styles */
         body {
             background-color: #121212; /* Dark background */
             color: #ffffff; /* Light text */
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        /* Centered sections */
-        h1, h2, h3, div {
+        header {
             text-align: center;
+            margin-top: 20px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        h2, h3 {
+            margin-top: 40px;
+            margin-bottom: 10px;
+            color: #1e90ff; /* Accent color */
         }
 
         a {
-            color: #1e90ff; /* Light blue links */
+            color: #1e90ff;
             text-decoration: none;
         }
 
@@ -28,91 +42,83 @@
             text-decoration: underline;
         }
 
-        hr {
-            border: 1px solid #444;
+        img {
+            max-width: 100%;
+            border-radius: 10px;
         }
 
-        img {
-            border-radius: 8px; /* Rounded corners for images */
+        .section {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            text-align: center;
+            padding: 20px;
+            background: #1e1e1e;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .tools img {
+            margin: 5px;
+        }
+
+        .stats {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
+            background: #1e1e1e;
+            color: #888;
+            font-size: 0.9em;
         }
     </style>
-    <!-- Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-3L26KH0R1R"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-3L26KH0R1R');
-    </script>
-    <!-- End Google Analytics -->
 </head>
 <body>
-    <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Cann-E.Cann-E" />
+    <header>
+        <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=Cann-E.Cann-E" alt="Visitor Count" />
+        <h1>
+            <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hey!+👋;+I'm+Can+Ercan!;" alt="Typing Animation" />
+        </h1>
+        <h3>A Full Stack Developer from Houston, TX, USA</h3>
+    </header>
 
-    <h1 align="center">
-        <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hey!+👋;+I'm+Can+Ercan!;" alt="Typing Animation" />
-    </h1>
-
-    <img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/Cann-E/Cann-E/Can-Main/photo-1515879218367-8466d910aaa4.jpeg" />
-
-    <h3 align="center">A Full Stack Developer from Houston, TX, USA</h3>
-    <br/>
-
-    <div align="center">
-        🔭 I’m currently working on **Web App for An Enterprise Database Application**
-        <br/><br/>
-        🌱 Web Page Coming Soon! **_____** 🌱
-        <br/><br/>
-        💬 Ask me anything!! <a href="https://github.com/Cann-E/Cann-E/issues">here</a>
-        <br/><br/>
-        ⚡!!
+    <div class="section">
+        <p>🔭 I’m currently working on <strong>Web App for An Enterprise Database Application</strong></p>
+        <p>🌱 Web Page Coming Soon! <strong>_____</strong></p>
+        <p>💬 Ask me anything <a href="https://github.com/Cann-E/Cann-E/issues">here</a></p>
     </div>
 
-    <div align="center">
-        <a href="mailto:cann0211@gmail.com">
-            <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" alt="Gmail" />
-        </a>
-        <a href="https://www.linkedin.com/in/can-ercan1102/" target="_blank">
-            <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-        </a>
-        <a href="https://Cann-E.github.io" target="_blank">
-            <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" alt="Portfolio" />
-        </a>
+    <div class="section">
+        <h2>Languages-Frameworks-Tools</h2>
+        <div class="tools">
+            <img src="https://skillicons.dev/icons?i=react,html,css,vscode,github,git,r,discord,ai,linux" alt="Skills 1" />
+            <img src="https://skillicons.dev/icons?i=python,javascript,cpp,postgres,sqlite,mysql" alt="Skills 2" />
+        </div>
     </div>
 
-    <hr/>
-
-    <h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
-    <br/>
-    <div align="center">
-        <img src="https://skillicons.dev/icons?i=react,html,css,vscode,github,git,r,discord,ai,linux" alt="Skills 1" />
-        <img src="https://skillicons.dev/icons?i=python,javascript,cpp,postgres,sqlite,mysql" alt="Skills 2" />
+    <div class="section">
+        <h2>🐍 My Contributions</h2>
+        <img src="https://raw.githubusercontent.com/Cann-E/Cann-E/output/github-contribution-grid-snake.svg" alt="Snake Contributions" />
     </div>
 
-    <br/>
-    <hr/>
-
-    <h2>🐍 My Contributions 🐍</h2>
-    <br/>
-    <div align="center">
-        <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/Cann-E/Cann-E/output/github-contribution-grid-snake.svg" />
+    <div class="section">
+        <h2>⚡ Stats</h2>
+        <div class="stats">
+            <img width="390" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=Cann-E&count_private=true&theme=react&border_radius=10" alt="GitHub Streak Stats" />
+            <img width="390" src="https://github-readme-stats.vercel.app/api?username=Cann-E&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="GitHub Stats" />
+            <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cann-E&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="Most Used Languages" />
+        </div>
     </div>
 
-    <hr/>
-
-    <h2 align="center">⚡ Stats ⚡</h2>
-    <div style="display: flex; justify-content: center; flex-wrap: wrap;">
-        <img width="390" src="https://github-readme-streak-stats-salesp07.vercel.app/?user=Cann-E&count_private=true&theme=react&border_radius=10" alt="GitHub Streak Stats" />
-        <img width="390" src="https://github-readme-stats.vercel.app/api?username=Cann-E&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="GitHub Stats" />
-    </div>
-    <div style="display: flex; justify-content: center; flex-wrap: wrap; margin-top: 20px;">
-        <img width="390" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Cann-E&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="Most Used Languages" />
-    </div>
-
-    <br/><br/>
-
-    <div align="center">
-        <img alt="Coding GIF" width="400" src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZmZxOXY1aWFjMmpydnhiazN1dzBpemxkYXlxM3B1NTZmcmNpM21weiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zOvBKUUEERdNm/giphy.gif" />
-    </div>
+    <footer>
+        &copy; 2025 Can Ercan - All Rights Reserved
+    </footer>
 </body>
 </html>
